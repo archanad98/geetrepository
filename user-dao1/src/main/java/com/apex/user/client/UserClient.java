@@ -11,6 +11,7 @@ public class UserClient {
 	UserDAO userDAO=new UserDAO();
 	User user=userDAO.getUser(1);
 	System.out.println(user.getFirstName()); 
+	Sysout.out.println("login test for github need to remove ");
 		
 	}
 
